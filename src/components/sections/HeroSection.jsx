@@ -96,6 +96,8 @@ const HeroSection = () => {
                     height: "45px",
                     mt: "10px",
                   }}
+                  href="https://drive.google.com/file/d/11Ahj6NdIayofMH-iGwI6xbz1vu3SXV4L/view?usp=sharing"
+                  target="_blank"
                 >
                   CV
                 </Button>
