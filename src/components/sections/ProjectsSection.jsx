@@ -1,3 +1,5 @@
+"use client"
+
 import { Box, Container, Grid, Skeleton, Toolbar } from "@mui/material";
 import React from "react";
 import ProjectCard from "../ProjectCard";
