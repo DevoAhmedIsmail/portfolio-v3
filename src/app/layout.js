@@ -7,10 +7,10 @@ import Footer from "@/components/Footer";
 import { AOSInit } from "./libs/aos";
 
 
-export const metadata = {
-  title: "Ahmed Ismail's Portfolio",
-  description: "Ahmed Ismail's Portfolio",
-};
+// export const metadata = {
+//   title: "Ahmed Ismail's Portfolio",
+//   description: "Ahmed Ismail's Portfolio",
+// };
 
 export default function RootLayout({ children }) {
   const [theme, colorMode] = useMode();
