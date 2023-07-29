@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
-          <AOSInit />
+          {/* <AOSInit /> */}
           <body suppressHydrationWarning={true}>
             <Navbar />
             {children}

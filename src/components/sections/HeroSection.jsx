@@ -39,7 +39,7 @@ const HeroSection = () => {
               sx={{
                 width: { xs: "100%", lg: "50%" },
                 textAlign: { xs: "center", lg: "start" },
-                mt: {xs: "-60px", lg: "0px"}
+                mt: {xs: "-85px", lg: "0px"}
               }}
             >
               <Stack
@@ -95,6 +95,10 @@ const HeroSection = () => {
                     width: "150px",
                     height: "45px",
                     mt: "10px",
+                    mb: {
+                      lg: "0",
+                      xs: "20px"
+                    }
                   }}
                   href="https://drive.google.com/file/d/11Ahj6NdIayofMH-iGwI6xbz1vu3SXV4L/view?usp=sharing"
                   target="_blank"
@@ -115,17 +119,26 @@ const HeroSection = () => {
                 sx={{
                   position: "relative",
                   rotate: "-23deg",
+                  mt: {
+                    xs: "-66px",
+                    lg: "0"
+                  }
                   // overflow: "hidden",
                 }}
 
               >
                 <Box
-                  sx={{ width: {xs: "590px", lg:"800px"}, height: {xs:"490px",lg: "600px"}, position: "relative" }}
+                  sx={{ 
+                    width: {xs: "590px", lg:"800px"},
+                    height: {xs:"490px",lg: "600px"},
+                    position: "relative"
+                 }}
                 >
                   <Image
                     src="/assets/shapes/photo-wrapper.svg"
                     fill
                     alt="wrapper"
+                    style={{left: "-10px"}}
                   />
                 </Box>
                 <Box
@@ -142,6 +155,7 @@ const HeroSection = () => {
                     src="/assets/images/anonymous.png"
                     fill
                     alt="wrapper"
+                    style={{left: "-10px"}}
                   />
                 </Box>
               </Box>

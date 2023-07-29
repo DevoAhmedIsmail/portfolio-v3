@@ -32,10 +32,10 @@ const Experience = () => {
               {experienceData.map((exp, index) => (
                 <TimelineItem
                   key={index}
-                  data-aos="fade-right"
-                  data-aos-offset="900"
-                  data-aos-duration="2000"
-                  data-aos-easing="ease-in-sine"
+                  // data-aos="fade-right"
+                  // data-aos-offset="900"
+                  // data-aos-duration="2000"
+                  // data-aos-easing="ease-in-sine"
                 >
                   <TimelineOppositeContent
                     color="text.secondary"

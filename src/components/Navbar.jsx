@@ -11,6 +11,7 @@ import {
   Typography,
   useTheme,
   useMediaQuery,
+  Button,
 } from "@mui/material";
 import Sidebar from "./Sidebar";
 import Link from "next/link";
@@ -25,9 +26,9 @@ const Navbar = () => {
 
   const [open, setOpen] = useState(false)
   return (
-    <AppBar position="sticky" sx={{ bgcolor: currentMode === "light" ? "#fcfcfc" : "#141b2d", height: theme.customHeight.navbar }}>
+    <AppBar position="sticky" sx={{ bgcolor: currentMode === "light" ? "#fcfcfc" : "#141b2d", height: {xs: "auto" , md: theme.customHeight.navbar} }}>
       <Container maxWidth="xl">
-        <Toolbar>
+      <Toolbar sx={{ px: { xs: 0 } }}>
           <Stack
             display="flex"
             alignItems="center"
@@ -36,9 +37,25 @@ const Navbar = () => {
           >
             {/* LOGO */}
             <Box flex={1}>
-              <Typography variant="h4" color="secondary">
+              {/* <Typography variant="h4" color="secondary">
                 Ahmed Ismail
-              </Typography>
+              </Typography> */}
+              <Button 
+                disableElevation 
+                disableRipple 
+                href="/" 
+                variant="h4" 
+                color="secondary"
+                sx={{
+                  "&:hover": {
+                    backgroundColor: "transparent !important",
+                  },
+                  fontSize: "22px",
+                  color: "#3da58a"
+                }}
+              >
+                Ahmed Ismail
+              </Button>
             </Box>
 
             {/* ACTIONS */}

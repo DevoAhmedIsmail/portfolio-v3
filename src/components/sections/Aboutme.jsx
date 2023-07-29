@@ -14,9 +14,10 @@ const Aboutme = () => {
           {
             aboutData.map((content, index)=>(
                <Box key={index} display="flex" alignItems="start" pb="8px" gap="5px" data-aos="fade-right"
-               data-aos-offset="900"
-               data-aos-duration="2000"
-               data-aos-easing="ease-in-sine">
+              //  data-aos-offset="900"
+              //  data-aos-duration="2000"
+              //  data-aos-easing="ease-in-sine"
+               >
                 <Icon >
                     <KeyboardDoubleArrowRight sx={{ color:"#3da58a"}} />
                 </Icon>
