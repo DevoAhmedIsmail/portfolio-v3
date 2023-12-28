@@ -15,8 +15,11 @@ const aboutData = [
     text: "Assisted in the development of web-based applications using ReactJS",
   },
   {
-    text: "I have Small experience of React Native to develop mobile applications for both iOS and Android platforms",
+    text: "I Work with University of KSA",
   },
+  // {
+  //   text: "I have Small experience of React Native to develop mobile applications for both iOS and Android platforms",
+  // },
   {
     text: "I have experience in handling data formats such as JSON and working with RESTful APIs and integrate with backend",
   },

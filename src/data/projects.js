@@ -65,6 +65,13 @@
 
 export const workProjects = [
   {
+    title: "Fin",
+    image: "/assets/images/projects/fin.png",
+    link: "http://fin.com.sa/",
+    description: "Website for university of Om El-Qura , KSA",
+    skills: ["Html", "Css", "Responsive"],
+  },
+  {
     title: "Cheeks",
     image: "/assets/images/projects/cheecks.png",
     link: "https://cheeks.vercel.app/",

@@ -100,7 +100,7 @@ const HeroSection = () => {
                       xs: "20px"
                     }
                   }}
-                  href="https://drive.google.com/file/d/11Ahj6NdIayofMH-iGwI6xbz1vu3SXV4L/view?usp=sharing"
+                  href="https://drive.google.com/file/d/17W66kr3Soy7P7s5Qsde-ZMVmwImECu2b/view?usp=sharing"
                   target="_blank"
                 >
                   CV
